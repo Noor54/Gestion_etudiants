@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+     <head>
+        <title>Gestion des Etudiants</title>
+        <meta charset="utf-8"/>
+     </head>
+     <body>
+      <form method="POST" action="afficherEtudiant.php" enctype="multipart/form-data"> <!-- attribut pour uploader un fichier(format binaire pas que du texte-->
+       <table>
+        <tr>
+            <td>Nom:</td>
+            <td><input type="text" name="nom"></td>
+        </tr>
+                <tr>
+            <td>mail:</td>
+            <td><input type="text" name="mail"></td>
+         </tr>
+         <tr>
+            <td>photo:</td>
+            <td><input type="file" name="photo"></td>
+        </tr>
+            <td></td>
+            <td><input type="submit" value="Enregistrer"></td>
+       </table> 
+        
+        
+      </form>  
+     
+     </body>
+    </html>
